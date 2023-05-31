@@ -1,12 +1,11 @@
 import { useState } from "react";
-import genres from "../db/genreData"
+import genres from "../db/genreData";
+import ConsoleText from "./ConsoleText/ConsoleText";
 
 export default function Genre() {
-
   const [genre, setGenre] = useState("");
 
   const handleClick = () => {
-    console.log("generate genre clicked");
     const genreNum = Math.floor(Math.random() * genres.length + 1);
     genres.find((item) => {
       if (item.num === `${genreNum}`) {
@@ -17,12 +16,11 @@ export default function Genre() {
 
   return (
     <>
-      
-      <div>
+      <div className="text_container">
         <h2>{"in the genre of:"}</h2>
-        <p>{`${genre}`}</p>
+        <ConsoleText toPrint={genre} />
+        <button onClick={handleClick}>Generate A Genre</button>
       </div>
-      <button onClick={handleClick}>Generate A Genre</button>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import prompts from "../db/promptsData"
+import prompts from "../db/promptsData";
+import ConsoleText from "./ConsoleText/ConsoleText";
 
 export default function Prompt() {
   const [prompt, setPrompt] = useState("");
@@ -15,12 +16,11 @@ export default function Prompt() {
 
   return (
     <>
-      
-      <div>
+      <div className="text_container">
         <h2>{"make a film about:"}</h2>
-        <p>{`${prompt}`}</p>
+        <ConsoleText toPrint={prompt} />
+        <button onClick={handleClick}>Generate A Prompt</button>
       </div>
-      <button onClick={handleClick}>Generate A Prompt</button>
     </>
   );
 }

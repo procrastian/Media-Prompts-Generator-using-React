@@ -3,7 +3,7 @@ import Prompt from "./Components/Prompt";
 
 export default function Home() {
   return (
-    <div>
+    <div className="console-containter">
       <h1>Film Prompts</h1>
       <Prompt />
       <Genre />
