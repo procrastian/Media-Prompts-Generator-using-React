@@ -1,7 +1,7 @@
 import { useState } from "react";
-import prompts from "../../db/db.js";
+import prompts from "../db/promptsData"
 
-export default function Home() {
+export default function Prompt() {
   const [prompt, setPrompt] = useState("");
 
   const handleClick = () => {
@@ -13,13 +13,11 @@ export default function Home() {
     });
   };
 
-  //print to the web page
   return (
     <>
-      <h1>Media Prompts</h1>
       <button onClick={handleClick}>Generate A Prompt</button>
       <div>
-        <h2>{"Here is your prompt:"}</h2>
+        <h2>{"here is your prompt:"}</h2>
         <br />
         <p>{`${prompt}`}</p>
       </div>
