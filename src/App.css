@@ -1,38 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  box-shadow:0 0 5vmin 1vmin #000 inset;
 }
 
 .App-header {
   background-color: #282c34;
+  background-image: radial-gradient(rgba(0, 60, 0, 0.9), black 120%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Fira Code", monospace;
   font-size: calc(10px + 2vmin);
+  text-shadow: 0 0 5px #C8C8C8;
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.screen::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(18, 16, 16, 0) 50%,
+      rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  z-index: 2;
+  pointer-events: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* @font-face {
+  font-family: "Fira Code";
+  src: local("FiraCode-VariableFont_wght")
+    url("./fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
+} */
+

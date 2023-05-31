@@ -1,11 +1,14 @@
 import Home from "./home";
-import './App.css';
+import "./App.css";
+import "./fonts/FiraCode-VariableFont_wght.ttf";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Home />
+        <div className="screen">
+          <Home />
+        </div>
       </header>
     </div>
   );

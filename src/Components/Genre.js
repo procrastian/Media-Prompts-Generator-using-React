@@ -17,12 +17,12 @@ export default function Genre() {
 
   return (
     <>
-      <button onClick={handleClick}>Generate A Genre</button>
+      
       <div>
-        <h2>{"here is your genre:"}</h2>
-        <br />
+        <h2>{"in the genre of:"}</h2>
         <p>{`${genre}`}</p>
       </div>
+      <button onClick={handleClick}>Generate A Genre</button>
     </>
   );
 }
