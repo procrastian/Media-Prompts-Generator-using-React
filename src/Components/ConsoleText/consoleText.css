@@ -3,7 +3,7 @@
     font-family: "Fira Code", monospace;
     overflow: hidden;
     border-right: .15em solid white;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     margin: 0 auto;
     letter-spacing: .15em;
     animation: 

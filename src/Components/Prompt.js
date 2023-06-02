@@ -19,7 +19,7 @@ export default function Prompt() {
       <div className="text_container">
         <h2>{"make a film about:"}</h2>
         <ConsoleText toPrint={prompt} />
-        <button onClick={handleClick}>Generate A Prompt</button>
+        <button className="generator prompt" onClick={handleClick}><strong>Generate Prompt</strong></button>
       </div>
     </>
   );

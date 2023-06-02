@@ -19,7 +19,7 @@ export default function Genre() {
       <div className="text_container">
         <h2>{"in the genre of:"}</h2>
         <ConsoleText toPrint={genre} />
-        <button onClick={handleClick}>Generate A Genre</button>
+        <button className="generator genre" onClick={handleClick}><strong>Generate Genre</strong></button>
       </div>
     </>
   );

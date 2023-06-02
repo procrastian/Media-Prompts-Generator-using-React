@@ -6,6 +6,7 @@ export default function Home() {
     <div className="console-containter">
       <h1>Film Prompts</h1>
       <Prompt />
+      <br/>
       <Genre />
     </div>
   );

@@ -2,10 +2,11 @@
 
 .App {
   text-align: center;
-  box-shadow:0 0 5vmin 1vmin #000 inset;
+
+
 }
 
-.App-header {
+.App-body {
   background-color: #282c34;
   background-image: radial-gradient(rgba(0, 60, 0, 0.9), black 120%);
   min-height: 100vh;
@@ -17,10 +18,10 @@
   font-size: calc(10px + 2vmin);
   text-shadow: 0 0 5px #C8C8C8;
   color: white;
-  
 }
 
 .screen::after {
+  max-height: 100vh;
   content: " ";
   display: block;
   position: absolute;
@@ -36,13 +37,8 @@
   background-size: 100% 4px;
   z-index: 2;
   pointer-events: none;
+  
 }
-
-/* @font-face {
-  font-family: "Fira Code";
-  src: local("FiraCode-VariableFont_wght")
-    url("./fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
-} */
 
 .console-container {
   font-family: 'Fira Code', monospace;
@@ -62,4 +58,40 @@
 
 .text_container {
   display: inline-block;
+}
+
+.generator {
+  position: absolute;
+  bottom: 20px;
+  z-index: 3;
+  font-family: "Fira Code", monospace;
+  font-size:medium;
+  background: url("../Assets/speedometer-icon.svg");
+  color: white;
+  text-shadow: 0 0 2px #C8C8C8;
+  background-color: rgb(101, 93, 65);
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 5px 5px black;
+}
+
+.prompt {
+  left: 20px;
+}
+
+.genre {
+  right: 20px;
+}
+
+.controls {
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 150px;
+  /* background-color: coral; */
+  background-image: radial-gradient(coral, black 120%);
+  text-align: center;
 }

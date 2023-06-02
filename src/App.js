@@ -5,11 +5,12 @@ import "./fonts/FiraCode-VariableFont_wght.ttf";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-body">
         <div className="screen">
           <Home />
         </div>
-      </header>
+        <div className="controls">CONTROL PANEL</div>
+      </div>
     </div>
   );
 }
