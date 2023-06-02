@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-media-prompts/static/css/main.e813bde4.css",
-    "main.js": "/react-media-prompts/static/js/main.82c51f34.js",
+    "main.css": "/react-media-prompts/static/css/main.82a92a50.css",
+    "main.js": "/react-media-prompts/static/js/main.1d608495.js",
     "static/js/787.5a89583c.chunk.js": "/react-media-prompts/static/js/787.5a89583c.chunk.js",
     "static/media/FiraCode-VariableFont_wght.ttf": "/react-media-prompts/static/media/FiraCode-VariableFont_wght.7c80bf8de566686bfbb7.ttf",
     "index.html": "/react-media-prompts/index.html",
-    "main.e813bde4.css.map": "/react-media-prompts/static/css/main.e813bde4.css.map",
-    "main.82c51f34.js.map": "/react-media-prompts/static/js/main.82c51f34.js.map",
+    "main.82a92a50.css.map": "/react-media-prompts/static/css/main.82a92a50.css.map",
+    "main.1d608495.js.map": "/react-media-prompts/static/js/main.1d608495.js.map",
     "787.5a89583c.chunk.js.map": "/react-media-prompts/static/js/787.5a89583c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e813bde4.css",
-    "static/js/main.82c51f34.js"
+    "static/css/main.82a92a50.css",
+    "static/js/main.1d608495.js"
   ]
 }
