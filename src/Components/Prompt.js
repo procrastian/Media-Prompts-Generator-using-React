@@ -20,7 +20,7 @@ export default function Prompt() {
         <h2>{"make a film about:"}</h2>
         <p>{`${prompt}`}</p>
       </div>
-      <button onClick={handleClick}>Generate A Prompt</button>
+      <button className="prompt" onClick={handleClick}><strong>Generate Prompt</strong></button>
     </>
   );
 }

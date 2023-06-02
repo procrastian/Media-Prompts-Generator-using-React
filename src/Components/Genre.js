@@ -22,7 +22,7 @@ export default function Genre() {
         <h2>{"in the genre of:"}</h2>
         <p>{`${genre}`}</p>
       </div>
-      <button onClick={handleClick}>Generate A Genre</button>
+      <button className="genre" onClick={handleClick}><strong>Generate Genre</strong></button>
     </>
   );
 }

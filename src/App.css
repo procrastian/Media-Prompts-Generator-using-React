@@ -38,9 +38,35 @@
   pointer-events: none;
 }
 
-/* @font-face {
-  font-family: "Fira Code";
-  src: local("FiraCode-VariableFont_wght")
-    url("./fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
-} */
+button {
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  padding: 2vmin;
+  margin:2vmin;
+  min-height: 5vmin;
+  min-width: 5vmin;
+  border-radius: 20px;
+  font-family: "Fira Code", monospace;
+  font-size: large;
+  box-shadow:0 0 5vmin 1vmin #000;
+  background-image: radial-gradient(coral, black 120%);
+  background-position: center;
+}
 
+.prompt {
+  bottom: 5%;
+  left: 20%
+}
+
+.genre {
+  bottom: 5%;
+  right: 20%
+}
+
+@media screen and (max-width:700px) {
+  .prompt {
+    bottom: 15%
+  }
+}
