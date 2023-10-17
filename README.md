@@ -43,6 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
 <a href="https://procrastian.github.io/react-media-prompts/">
   <img src="images/home_screenshot.png" alt="home page screenshot" width="400" height="400">
 </a>
@@ -105,7 +106,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To generate the results, each of the buttons are used.
+<img src="images/media_prompts_example_01.gif" alt="generating prompts" width="400" height="400">
+
+The prompts can be re-generated, while maintaining the current option of the other catagory.
+<img src="images/media_prompts_example_02.gif" alt="changing prompts" width="400" height="400">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +131,9 @@ See the [open issues](https://github.com/procrastian/react-media-prompts/issues)
 ## Contact
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
 Ian Grantham - dev.iangrantham@gmail.com
+
 Project Link: [https://github.com/procrastian/react-media-prompts](https://github.com/procrastian/react-media-prompts)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
