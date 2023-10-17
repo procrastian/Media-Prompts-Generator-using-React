@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/procrastian/react-media-prompts">
+    <img src="assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
+<h3 align="center">Media Prompt Generator using React</h3>
+  <p align="center">
+    A tool to help film students generate randomised, creative prompts for short film topics.
+    <br />
+    <a href="https://github.com/procrastian/react-media-prompts"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://procrastian.github.io/react-media-prompts/">View Demo</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+<a href="https://procrastian.github.io/react-media-prompts/">
+  <img src="images/home_screenshot.png" alt="home page screenshot" width="400" height="400">
+</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+- [![React][React.js]][React-url]
+- [![JavaScript][JavaScript.js]][JavaScript-url]
+- [![Nodejs][Nodejs.js]][Nodejs-url]
+- [![HTML5][HTML5.js]][HTML5-url]
+- [![CSS3][CSS3.js]][CSS3-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- npm
+
+  ```sh
+  npm install
+  ```
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/procrastian/react-media-prompts.git
+   ```
+
+2. Install NPM packages
+
+   ```sh
+   npm ci
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
 
 In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
-Runs the app in the development mode.\
+This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
+<!-- ROADMAP -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Roadmap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] Generate a random plot or theme prompt
+- [x] Generate a random genre
+- [ ] Animate text as it is renders
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the [open issues](https://github.com/procrastian/react-media-prompts/issues) for a full list of proposed features (and known issues).
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- CONTACT -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[![LinkedIn][linkedin-shield]][linkedin-url]
+Ian Grantham - dev.iangrantham@gmail.com
+Project Link: [https://github.com/procrastian/react-media-prompts](https://github.com/procrastian/react-media-prompts)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- MARKDOWN LINKS & IMAGES -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0A66C2
+[linkedin-url]: https://linkedin.com/in/dev-ian-grantham
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[JavaScript.js]: https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript
+[JavaScript-url]: https://www.javascript.com/
+[HTML5.js]: https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26
+[HTML5-url]: https://html.com/
+[CSS3.js]: https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=1572B6
+[CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[Nodejs.js]: https://img.shields.io/badge/node.js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=339933
+[Nodejs-url]: https://nodejs.org/en
