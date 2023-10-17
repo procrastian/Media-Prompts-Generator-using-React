@@ -66,7 +66,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
@@ -102,14 +102,15 @@ In the project directory, you can run:
 
 This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 To generate the results, each of the buttons are used.
+
 <img src="images/media_prompts_example_01.gif" alt="generating prompts" width="400" height="400">
 
 The prompts can be re-generated, while maintaining the current option of the other catagory.
+
 <img src="images/media_prompts_example_02.gif" alt="changing prompts" width="400" height="400">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
