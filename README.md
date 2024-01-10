@@ -13,7 +13,7 @@
     <a href="https://github.com/procrastian/react-media-prompts"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://procrastian.github.io/react-media-prompts/">View Demo</a>
+    <a href="https://procrastian.github.io/Media-Prompts-Generator-using-React/">View Demo</a>
   </p>
 </div>
 
