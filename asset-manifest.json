@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-media-prompts/static/css/main.82a92a50.css",
-    "main.js": "/react-media-prompts/static/js/main.1d608495.js",
-    "static/js/787.5a89583c.chunk.js": "/react-media-prompts/static/js/787.5a89583c.chunk.js",
-    "static/media/FiraCode-VariableFont_wght.ttf": "/react-media-prompts/static/media/FiraCode-VariableFont_wght.7c80bf8de566686bfbb7.ttf",
-    "index.html": "/react-media-prompts/index.html",
-    "main.82a92a50.css.map": "/react-media-prompts/static/css/main.82a92a50.css.map",
-    "main.1d608495.js.map": "/react-media-prompts/static/js/main.1d608495.js.map",
-    "787.5a89583c.chunk.js.map": "/react-media-prompts/static/js/787.5a89583c.chunk.js.map"
+    "main.css": "/Media-Prompts-Generator-using-React/static/css/main.82a92a50.css",
+    "main.js": "/Media-Prompts-Generator-using-React/static/js/main.b86bcc77.js",
+    "static/js/787.5a89583c.chunk.js": "/Media-Prompts-Generator-using-React/static/js/787.5a89583c.chunk.js",
+    "static/media/FiraCode-VariableFont_wght.ttf": "/Media-Prompts-Generator-using-React/static/media/FiraCode-VariableFont_wght.7c80bf8de566686bfbb7.ttf",
+    "index.html": "/Media-Prompts-Generator-using-React/index.html",
+    "main.82a92a50.css.map": "/Media-Prompts-Generator-using-React/static/css/main.82a92a50.css.map",
+    "main.b86bcc77.js.map": "/Media-Prompts-Generator-using-React/static/js/main.b86bcc77.js.map",
+    "787.5a89583c.chunk.js.map": "/Media-Prompts-Generator-using-React/static/js/787.5a89583c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82a92a50.css",
-    "static/js/main.1d608495.js"
+    "static/js/main.b86bcc77.js"
   ]
 }
